@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><saml2p:AuthnRequest xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" AssertionConsumerServiceURL="https://sp.example.com/saml/" Destination="https://idp.example.com/saml/" ID="SP_50f55bc7-4bea-4f0b-a9b1-84fc881212a7" IssueInstant="2024-02-01T12:02:37.055Z" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Version="2.0">
+    <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://sp.example.com</saml2:Issuer>
+    <saml2:Subject xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+        <saml2:NameID>subject@example.com</saml2:NameID>
+    </saml2:Subject>
+</saml2p:AuthnRequest>

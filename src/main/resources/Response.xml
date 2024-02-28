@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><saml2p:Response xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" Destination="https://sp.example.com/saml/" ID="IDP_fd3b66c6-fec2-4d39-8690-ea9fc85d91cd" InResponseTo="SP_50f55bc7-4bea-4f0b-a9b1-84fc881212a7" IssueInstant="2024-02-01T12:02:37.069Z" Version="2.0">
+    <saml2:Issuer xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">https://idp.example.com</saml2:Issuer>
+    <saml2p:Status>
+        <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+    </saml2p:Status>
+    <saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" Version="2.0">
+        <saml2:Issuer>https://idp.example.com</saml2:Issuer>
+        <saml2:Subject>
+            <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                <saml2:SubjectConfirmationData Address="subject@example.com" InResponseTo="SP_50f55bc7-4bea-4f0b-a9b1-84fc881212a7" NotBefore="2024-02-01T12:02:37.083Z" NotOnOrAfter="2024-02-01T12:04:17.083Z" Recipient="https://sp.example.com/saml/"/>
+            </saml2:SubjectConfirmation>
+        </saml2:Subject>
+    </saml2:Assertion>
+</saml2p:Response>
